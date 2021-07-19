@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 100px 0px 100px;
+
+}
+
+.first-section{
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.content-wrapper{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-one-third{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    height: 700px;
+    /* float: left; */
+}
+
+.first-one-third h2{
+    font-size: 50px;
+    color: tomato;
+}
+
+.first-one-third h3{
+    font-size: 45px;
+}
+
+.first-one-third img{
+    width: 100%;
+}
+
+.first-one-third p{
+    color: gray;
+}
+
+.first-one-third a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: tomato;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+}
+
+.second-section{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.third-portion-heading{
+    font-size: 45px;
+    text-align: center;
+}
+
+.third-portion-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-section{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.image{
+    width: 30.33%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.image img{
+    width: 100%;
+    margin: 20px 20px 100px 20px;
+}
+
+.first-5-line h3{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.first-5-line h5{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 0px;;
+}
+
+.first-5-line h6{
+    text-align: center;
+    color: gray;
+    margin-top: 0px;
+}
+
+.paragraph-margin1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.paragraph-margin2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.first-5-line p{
+    text-align: center;
+}
+
+.last-2-line-tomato{
+    text-align: center;
+    background-color: tomato;
+    padding: 20px 40px;
+    color: white;
+    margin: 0px 350px 80px 350px;
+    border-radius: 10px;
+}
+
+.third-section{
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.copy-right h6{
+    color: gray;
+    text-align: center;
+    
+}
+
